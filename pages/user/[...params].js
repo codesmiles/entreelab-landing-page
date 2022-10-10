@@ -1,6 +1,7 @@
-import { useRouter } from "next/router";
-import LoginUser from "../../components/user/login";
 import RegisterUser from "../../components/user/register";
+import LoginUser from "../../components/user/login";
+import { useRouter } from "next/router";
+
 export default function User() {
   const router = useRouter();
   const { params = [] } = router.query;
@@ -17,9 +18,4 @@ export default function User() {
     return null;
   }
 
-  // return (
-  //     <>
-  //         <h1>user {id}</h1>
-  //     </>
-  // )
 }

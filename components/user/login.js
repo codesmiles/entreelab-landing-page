@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
 import Btn from "../utils/btn";
-import ImgLogo from "../utils/imgLogo";
+import ImgLogo from "./utils/imgLogo";
 import TxtLogo from "../utils/logo";
 
 const LoginUser = () => {
     const metaContent = "Entreelab accounting login";
-    const titleText = "Entreelab | Login";
-    const imgUrl = "/bg-login.jpg";
+    const titleText = "Entreelab Accounting | Login";
+    const imgUrl = "/user/bg-login.jpg";
   
     return (
         <>
@@ -16,13 +16,13 @@ const LoginUser = () => {
         <meta name="description" content={metaContent} />
       </Head>
       <main
-        className={`min-w-screen min-h-screen bg-cover bg-center font-['Lato']`}
+        className={`min-w-screen min-h-screen bg-cover bg-center font-['Lato'] pb-10`}
         style={{ backgroundImage: `url(${imgUrl})` }}
       >
         <TxtLogo />
 
-        <div className={`mx-auto max-w-md mt-10`}>
-          <div className={` bg-[#F5F5F5] rounded-lg w-full py-10`}>
+        <div className={`mx-auto max-w-md`}>
+          <div className={` bg-[#F5F5F5] rounded-lg w-full py-16`}>
             <div className={`text-center pb-6`}>
               <ImgLogo />
             </div>

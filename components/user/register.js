@@ -1,16 +1,16 @@
 import Head from "next/head";
 import Link from "next/link";
 import Btn from "../utils/btn";
-import ImgLogo from "../utils/imgLogo";
+import ImgLogo from "./utils/imgLogo";
 import TxtLogo from "../utils/logo";
 
 
 const RegisterUser = () => {
     const metaContent = "Entreelab accounting";
-    const titleText = "Entreelab";
-    const imgUrl = "/bg-register.jpg";
+    const titleText = "Entreelab Accounting | Register";
+    const imgUrl = "/user/bg-register.jpg";
     const tagName = "businessName";
-    const labelTitle = `business name`;
+          const labelTitle = `business name`;
     const inputType = "text";
     const inputPlaceholder = `What's your business name?`;
 
@@ -21,12 +21,12 @@ const RegisterUser = () => {
             <meta name="description" content={metaContent} />
           </Head>
           <main
-            className={`min-w-screen min-h-screen bg-cover bg-center font-['Lato']`}
+            className={`min-w-screen min-h-screen bg-cover bg-center font-['Lato'] pb-10`}
             style={{ backgroundImage: `url(${imgUrl})` }}
           >
             <TxtLogo />
 
-            <div className={`mx-auto max-w-md mt-10`}>
+            <div className={`mx-auto max-w-md`}>
               <div className={` bg-[#F5F5F5] rounded-lg w-full py-10`}>
                 <div className={`text-center pb-6`}>
                   <ImgLogo />
