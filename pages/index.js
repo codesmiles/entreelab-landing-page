@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-
+import Footer from "../components/landing-page/footer";
+import RequestDemo from "../components/landing-page/requestDemo";
 export default function Home() {
   return (
     <>
@@ -155,67 +156,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <h1>request a demo</h1>
-          <form action="/" method="post">
-            <div>
-              <label htmlFor="firstName">first name</label>
-              <input type="text" name="firstName" id="firstName" />
-            </div>
-            <div>
-              <label htmlFor="lastName">last name</label>
-              <input type="text" name="lastName" id="lasttName" />
-            </div>
-            <div>
-              <label htmlFor="contact">phone no.</label>
-              <input type="phone" name="contact" id="contact" />
-            </div>
-            <div>
-              <label htmlFor="businessName">business name</label>
-              <input type="text" name="businessName" id="businessName" />
-            </div>
-            <div>
-              <label htmlFor="businessEmail">business email</label>
-              <input type="email" name="businessEmail" id="businessEmail" />
-            </div>
-            <div>
-              <label htmlFor="jobTitle">job title</label>
-              <input type="text" name="jobTitle" id="jobTitle" />
-            </div>
-            <label htmlFor="additionalComment">additional comment</label>
-            <textarea
-              name="additionalComment"
-              id="additionalComment"
-              cols="30"
-              rows="10"
-            ></textarea>
-            <button type="submit">submit</button>
-          </form>
-        </section>
-        <footer>
-          <div>
-            <h1>contact us</h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-          <div>
-            <h1>find us on</h1>
-            <ul>
-              <li>
-                <Image src={``} width={``} height={``} />
-              </li>
-              <li>
-                <Image src={``} width={``} height={``} />
-              </li>
-              <li>
-                <Image src={``} width={``} height={``} />
-              </li>
-            </ul>
-          </div>
-        </footer>
+        <RequestDemo/>
+        <Footer/>
       </main>
     </>
   );
