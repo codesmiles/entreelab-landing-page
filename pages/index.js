@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/landing-page/footer";
 import RequestDemo from "../components/landing-page/requestDemo";
+import WhyOurProduct from "../components/landing-page/whyOurProduct";
 export default function Home() {
   return (
     <>
@@ -122,40 +123,7 @@ export default function Home() {
             <button>register</button>
           </div>
         </section>
-        <section>
-          <h1>why choose out products</h1>
-          <div>
-            <div>
-              <Image src={``} width={``} height={``} />
-              <h2>reliable</h2>
-              <p>
-                Our products are reliable and will work as intended with no
-                unexpected problems. You can also trust that the we will keep
-                your software up to date and fix any bugs that are found.
-              </p>
-            </div>
-            <div>
-              <Image src={``} width={``} height={``} />
-              <h2>easy to use</h2>
-              <p>
-                Softwares do not have to be complicated. With our easy to use
-                software, you can get started quickly and get the results you
-                need. We make it easy for you to get started and to get the
-                results you need.
-              </p>
-            </div>
-            <div>
-              <Image src={``} width={``} height={``} />
-              <h2>great support</h2>
-              <p>
-                We provide great support to our clients. We are always available
-                to answer any questions or concerns you may have, and we will do
-                whatever it takes to make sure you are satisfied with our
-                services.
-              </p>
-            </div>
-          </div>
-        </section>
+        <WhyOurProduct/>
         <RequestDemo/>
         <Footer/>
       </main>
