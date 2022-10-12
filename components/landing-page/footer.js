@@ -1,20 +1,9 @@
 import Image from "next/image";
 import Header from "./sub-components/header";
 import Link from "next/link";
+import findUsData from "./data/findUsData";
+import contactData from "./data/contactUs";
 const Footer = () => {
-  const contactData = [
-    { img: `/landing-page/phone.svg`, text: `01-454 5353, 07031081191` },
-    {
-      img: `/landing-page/location.svg`,
-      text: `101 Randle Avenue,	Surulere Lagos`,
-    },
-    { img: `/landing-page/mail.svg`, text: `info@entreelab.org` },
-  ];
-  const findUsData = [
-    `/landing-page/instagram.svg`,
-    `/landing-page/twitter.svg`,
-    `/landing-page/facebook.svg`,
-  ];
 
   return (
     <footer

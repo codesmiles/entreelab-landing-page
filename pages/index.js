@@ -3,6 +3,8 @@ import Image from "next/image";
 import Footer from "../components/landing-page/footer";
 import RequestDemo from "../components/landing-page/requestDemo";
 import WhyOurProduct from "../components/landing-page/whyOurProduct";
+import SmSoftware from "../components/landing-page/smSoftware";
+import HrSoftware from "../components/landing-page/hrSoftware";
 export default function Home() {
   return (
     <>
@@ -90,39 +92,8 @@ export default function Home() {
             <Image src={``} width={``} height={``} />
           </div>
         </section>
-        <section>
-          <div>
-            <h1>hr software</h1>
-            <p>
-              Recruiting is energy zapping and time-consuming. From creating job
-              descriptions to automating candidate screening, to even interview
-              scheduling, our HR Software stands out as very effective.
-              Experience Modern International Payroll With Powerful Integrations
-              & Unified Processes with EntréeLab HR
-            </p>
-            <button>register</button>
-          </div>
-          <div>
-            <Image src={``} width={``} height={``} />
-          </div>
-        </section>
-        <section>
-          <div>
-            <h1>School management software</h1>
-            <p>
-              The EntréeLab School Management Software is an e-learning
-              application built as a central learning hub where multiple users
-              have access to training and evaluation tools needed in one place.
-              It is an effective LMS application developed with special
-              consideration for the Nigerian market. The software is designed to
-              help educators/schools, parents and most especially student
-              monitor and evaluate development and performance in their
-              activities by providing periodic digital charts in designated
-              accounts.
-            </p>
-            <button>register</button>
-          </div>
-        </section>
+        <HrSoftware/>
+        <SmSoftware/>
         <WhyOurProduct/>
         <RequestDemo/>
         <Footer/>

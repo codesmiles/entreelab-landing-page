@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Btn from "../utils/btn";
 import ImgLogo from "./sub-utils/imgLogo";
-import TxtLogo from "../utils/logo";
+import TxtLogo from "./sub-utils/logo";
 
 
 const RegisterUser = () => {
