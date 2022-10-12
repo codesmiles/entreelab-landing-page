@@ -1,4 +1,4 @@
-import data from "./sub-components/formData";
+import data from "./data/formData";
 import Btn from "../utils/btn";
 
 const RequestDemo = () => {
