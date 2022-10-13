@@ -9,7 +9,7 @@ const Footer = () => {
     <footer
       className={`bg-[#0F2D3C]`}
     >
-      <section className={` text-white pl-2 py-10 font-["Lato"] md:grid md:grid-cols-2 w-4/5 mx-auto`}>
+      <section className={` text-white pl-2 py-10 font-["Lato"] md:grid md:grid-cols-2 w-11/12 mx-auto`}>
         <div>
           <Header text={`contact us`} />
           {/* contactData logic */}
