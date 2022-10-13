@@ -1,5 +1,5 @@
 import data from "./data/formData";
-import SubmitBtn from "../utils/btn";
+import {SubmitBtn} from "./sub-components/btn";
 
 const RequestDemo = () => {
   return (

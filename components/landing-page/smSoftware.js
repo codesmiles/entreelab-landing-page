@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RegBtn from "./sub-components/regBtn";
+import {RegBtn} from "./sub-components/btn";
 import { MainHeader } from "./sub-components/header";
 const SmSoftware = () => {
   const txtArr = [

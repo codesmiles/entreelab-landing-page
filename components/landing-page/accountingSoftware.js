@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RegBtn from "./sub-components/regBtn";
+import {RegBtn} from "./sub-components/btn";
 const AcctSoftware = () => {
   const paragraphDataArr = [
     `Our Accounting software is specially built to help businesses
