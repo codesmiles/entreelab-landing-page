@@ -7,6 +7,7 @@ import SmSoftware from "../components/landing-page/smSoftware";
 import HrSoftware from "../components/landing-page/hrSoftware";
 import AcctSoftware from "../components/landing-page/accountingSoftware";
 import WhatWeOffer from "../components/landing-page/whatWeOffer";
+import AboutEntreelab from "../components/landing-page/aboutEntreelab";
 export default function Home() {
   return (
     <>
@@ -51,23 +52,7 @@ export default function Home() {
             <Image src={``} width={``} height={``} />
           </div>
         </section>
-        <section>
-          <div>
-            <Image src={``} width={``} height={``} />
-            <Image src={``} width={``} height={``} />
-          </div>
-          <div>
-            <h1>about Entreelab</h1>
-            <p>
-              We are a software development company in Nigeria that works with
-              Enterprise systems, Schools and Companies. As a privately owned
-              company, EntréeLab provides IT Consultancy, software design and
-              development offering fully-fledged services for software
-              development and engineering, empowering effective near-shore
-              management to its clients.
-            </p>
-          </div>
-        </section>
+       <AboutEntreelab/>
         <WhatWeOffer/>
         <AcctSoftware/>
         <HrSoftware/>

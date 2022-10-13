@@ -16,6 +16,9 @@ const RegBtn = () => {
       </>
     );
   };
-  
-  export{ SubmitBtn, RegBtn};
+  // request demo
+  const RequestDemo =({text})=>{
+    return <button className={`bg-[#3397C8] text-white px-5 py-1 rounded-xl capitalize`}>{text}</button>
+  }
+  export{ SubmitBtn, RegBtn, RequestDemo};
   

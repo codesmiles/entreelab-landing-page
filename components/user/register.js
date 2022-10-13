@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import SubmitBtn from "../utils/btn";
-import ImgLogo from "./sub-utils/imgLogo";
-import TxtLogo from "./sub-utils/logo";
+import SubmitBtn from "./utils/btn";
+import ImgLogo from "./utils/imgLogo";
+import TxtLogo from "./utils/logo";
 
 
 const RegisterUser = () => {
