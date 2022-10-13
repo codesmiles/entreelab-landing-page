@@ -5,6 +5,7 @@ import RequestDemo from "../components/landing-page/requestDemo";
 import WhyOurProduct from "../components/landing-page/whyOurProduct";
 import SmSoftware from "../components/landing-page/smSoftware";
 import HrSoftware from "../components/landing-page/hrSoftware";
+import AcctSoftware from "../components/landing-page/accountingSoftware";
 export default function Home() {
   return (
     <>
@@ -75,23 +76,7 @@ export default function Home() {
           </p>
           <a>request demo</a>
         </section>
-        <section>
-          <div>
-            <h1>accounting software</h1>
-            <p>
-              Our Accounting software is specially built to help businesses
-              track financial statements, cash flow, invoicing and purchase
-              orders. In addition, our solution comes with specialized
-              functionalities for effective peer supervision and debt
-              management. Our AI-powered chatbot also stands this app out as we
-              have invested a lot of resources in making Accounting fun{" "}
-            </p>
-            <button>register</button>
-          </div>
-          <div>
-            <Image src={``} width={``} height={``} />
-          </div>
-        </section>
+        <AcctSoftware/>
         <HrSoftware/>
         <SmSoftware/>
         <WhyOurProduct/>

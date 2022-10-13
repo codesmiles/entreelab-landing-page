@@ -15,7 +15,7 @@ const SmSoftware = () => {
   return (
     <section className={`w-4/5 mx-auto`}>
       <div className={`text-center`}>
-        <h1 className={`font-bold text-[20px] my-5`}>
+        <h1 className={`font-bold my-5 text-xl md:text-2xl`}>
           School management software
         </h1>
         {txtArr.map((item, index) => {

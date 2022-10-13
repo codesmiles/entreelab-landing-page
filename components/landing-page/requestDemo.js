@@ -4,7 +4,7 @@ import Btn from "../utils/btn";
 const RequestDemo = () => {
   return (
     <section className={`bg-[#3397C8] py-16 text-["Lato"]`}>
-      <h1 className={`text-center text-[#07131A] font-bold text-[20px] mb-5`}>
+      <h1 className={`text-center text-[#07131A] font-bold text-xl md:text-2xl mb-5`}>
         Request a Demo
       </h1>
       <form action="/" method="post" className="w-4/5 mx-auto">
