@@ -1,4 +1,4 @@
-const Btn = ({ btnText, btnType, btnCss }) => {
+const SubmitBtn = ({ btnText, btnType, btnCss }) => {
   return (
     <>
       <button type={btnType} className={btnCss}>
@@ -8,4 +8,4 @@ const Btn = ({ btnText, btnType, btnCss }) => {
   );
 };
 
-export default Btn;
+export default SubmitBtn;

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Btn from "../utils/btn";
+import SubmitBtn from "../utils/btn";
 import ImgLogo from "./sub-utils/imgLogo";
 import TxtLogo from "./sub-utils/logo";
 
@@ -79,7 +79,7 @@ const RegisterUser = () => {
 
                   {/* button */}
                   <div className={`grid text-center`}>
-                    <Btn
+                    <SubmitBtn
                       btnType="submit"
                       btnText="register"
                       btnCss={`bg-[#2979A0] text-white max-w-xs rounded-lg py-2 font-bold text-[16px] uppercase w-full`}
@@ -88,7 +88,7 @@ const RegisterUser = () => {
                     <span className="uppercase my-5">or</span>
 
                     <Link href="">
-                      <Btn
+                      <SubmitBtn
                         btnText={`login`}
                         btnCss={`border-2 border-[#2979A0] max-w-xs font-bold rounded-lg py-2 text-[#2979A0] uppercase`}
                       />

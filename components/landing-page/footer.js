@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "./sub-components/header";
+import {FooterHeader} from "./sub-components/header";
 import Link from "next/link";
 import findUsData from "./data/findUsData";
 import contactData from "./data/contactUs";
@@ -11,7 +11,7 @@ const Footer = () => {
     >
       <section className={` text-white pl-2 py-10 font-["Lato"] md:grid md:grid-cols-2 w-11/12 mx-auto`}>
         <div>
-          <Header text={`contact us`} />
+          <FooterHeader text={`contact us`} />
           {/* contactData logic */}
           <ul>
             {contactData.map((item, index) => {
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         {/* find us data */}
         <div className={`mt-10 md:mt-0`}>
-          <Header text={`find us on`} />
+          <FooterHeader text={`find us on`} />
           <ul className={`flex`}>
             {findUsData.map((item, index) => {
               return (

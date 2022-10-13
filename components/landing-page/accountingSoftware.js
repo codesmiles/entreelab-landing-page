@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RegBtn from "./sub-components/regBtn";
 const AcctSoftware = () => {
   const paragraphDataArr = [
     `Our Accounting software is specially built to help businesses
@@ -23,10 +24,10 @@ const AcctSoftware = () => {
             </p>
           );
         })}
-        <div className={`hidden md:inline-block`}>
-        <a href="#">
-        <button>register</button>
-        </a>
+        <div className="lg:mt-5 hidden md:block">
+          <a href="#">
+            <RegBtn />
+          </a>
         </div>
       </div>
       <div className="flex justify-center md:justify-end md:w-1/2">

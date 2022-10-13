@@ -1,5 +1,5 @@
 import data from "./data/formData";
-import Btn from "../utils/btn";
+import SubmitBtn from "../utils/btn";
 
 const RequestDemo = () => {
   return (
@@ -46,7 +46,7 @@ const RequestDemo = () => {
           className={`w-full rounded-[10px] placeholder:text-[#B7B7B7] placeholder:text-[15px] pt-1 pl-2`}
         ></textarea>
         <div className={`flex justify-center mt-5`}>
-        <Btn btnType={`submit`} btnText={`Submit`} btnCss={`bg-white px-4 py-2 rounded-[10px] text-[16]`}/>
+        <SubmitBtn btnType={`submit`} btnText={`Submit`} btnCss={`bg-white px-4 py-2 rounded-[10px] text-[16]`}/>
         </div>
       </form>
     </section>

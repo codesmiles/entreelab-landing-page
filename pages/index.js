@@ -6,6 +6,7 @@ import WhyOurProduct from "../components/landing-page/whyOurProduct";
 import SmSoftware from "../components/landing-page/smSoftware";
 import HrSoftware from "../components/landing-page/hrSoftware";
 import AcctSoftware from "../components/landing-page/accountingSoftware";
+import WhatWeOffer from "../components/landing-page/whatWeOffer";
 export default function Home() {
   return (
     <>
@@ -67,15 +68,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section>
-          <h1>what we offer</h1>
-          <p>
-            Our solutions are built to enhance the business operation of our
-            clients by developing and/or implementing premium IT products and
-            services. You could request a demo for any of our products.
-          </p>
-          <a>request demo</a>
-        </section>
+        <WhatWeOffer/>
         <AcctSoftware/>
         <HrSoftware/>
         <SmSoftware/>

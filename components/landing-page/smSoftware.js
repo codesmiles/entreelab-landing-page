@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Btn from "../utils/btn";
+import RegBtn from "./sub-components/regBtn";
+import { MainHeader } from "./sub-components/header";
 const SmSoftware = () => {
   const txtArr = [
     `The EntréeLab School Management Software is an e-learning application
@@ -13,23 +14,38 @@ const SmSoftware = () => {
     accounts.`,
   ];
   return (
-    <section className={`w-4/5 mx-auto`}>
-      <div className={`text-center`}>
-        <h1 className={`font-bold my-5 text-xl md:text-2xl`}>
-          School management software
-        </h1>
-        {txtArr.map((item, index) => {
-            return <p key={index} className="leading-7">{item}</p>;
-            
-        })}
+    <section className={`w-11/12 mx-auto md:flex `}>
+      <div className={`text-center md:text-left md:w-1/2 `}>
+        <MainHeader text="School Management Software" />
 
+        {txtArr.map((item, index) => {
+          return (
+            <p key={index} className="leading-7">
+              {item}
+            </p>
+          );
+        })}
+        <div className="lg:mt-5 hidden md:block">
         <a href="#">
-            <Btn btnText="register"/>
-        {/* <button class>register</button> */}
+          <RegBtn />
         </a>
+        </div>
       </div>
-      <div>
-        <Image src={`/landing-page/group46.svg`} width={`330`} height={`239.5`} />
+      <div className="md:w-1/2 md:flex md:justify-end">
+        <div className="md:hidden">
+          <Image
+            src={`/landing-page/group46.svg`}
+            width={`330`}
+            height={`239.5`}
+          />
+        </div>
+        <div className="hidden md:block">
+          <Image
+            src={`/landing-page/group46.svg`}
+            width={`516.78px`}
+            height={`370px`}
+          />
+        </div>
       </div>
     </section>
   );
