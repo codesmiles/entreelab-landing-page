@@ -15,7 +15,7 @@ const SmSoftware = () => {
   ];
   return (
     <section className={`w-11/12 mx-auto md:flex `}>
-      <div className={`text-center md:text-left md:w-1/2 `}>
+      <div className={`text-center md:text-left md:w-1/2 text-[#0F2D3C] `}>
         <MainHeader text="School Management Software" />
 
         {txtArr.map((item, index) => {

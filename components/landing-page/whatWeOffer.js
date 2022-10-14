@@ -1,7 +1,7 @@
 import { MainHeader } from "./sub-components/header";
 import { RequestDemo } from "./sub-components/btn";
 const WhatWeOffer = () => {
-    return ( <section className={"text-[#0F2D3C] text-center md:w-3/4 md:mx-auto my-10 md:my-20"}>
+    return ( <section className={"text-[#0F2D3C] text-center w-11/12 mx-auto md:w-3/4 my-10 md:my-20"}>
     <div className="mb-3">
         <MainHeader text={"what we offer"}/>
     </div>
