@@ -1,5 +1,5 @@
 import { MainHeader } from "./sub-components/header";
-import { RequestDemo } from "./sub-components/btn";
+import { RequestDemoBtn } from "./sub-components/btn";
 const WhatWeOffer = () => {
     return ( <section className={"text-[#0F2D3C] text-center w-11/12 mx-auto md:w-3/4 my-10 md:my-20"}>
     <div className="mb-3">
@@ -12,7 +12,7 @@ const WhatWeOffer = () => {
         </p>
         <div className="mt-5">
         <a href="#">
-            <RequestDemo text={`request demo`}></RequestDemo>
+            <RequestDemoBtn text={`request demo`}></RequestDemoBtn>
         </a>
         </div>
 

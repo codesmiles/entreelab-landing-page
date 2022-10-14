@@ -17,8 +17,8 @@ const RegBtn = () => {
     );
   };
   // request demo
-  const RequestDemo =({text})=>{
+  const RequestDemoBtn =({text})=>{
     return <button className={`bg-[#3397C8] text-white px-5 py-2 rounded-xl capitalize hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300`}>{text}</button>
   }
-  export{ SubmitBtn, RegBtn, RequestDemo};
+  export{ SubmitBtn, RegBtn, RequestDemoBtn};
   
