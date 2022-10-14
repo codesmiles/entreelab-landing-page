@@ -31,7 +31,7 @@ const SmSoftware = () => {
         </a>
         </div>
       </div>
-      <div className="md:w-1/2 md:flex md:justify-end">
+      <div className="md:w-1/2 flex justify-center md:justify-end">
         <div className="md:hidden">
           <Image
             src={`/landing-page/group46.svg`}
