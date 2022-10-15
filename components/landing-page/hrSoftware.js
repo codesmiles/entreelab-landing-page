@@ -1,14 +1,13 @@
 import Image from "next/image";
-import {RegBtn} from "./sub-components/btn";
-import {MainHeader} from "./sub-components/header"
+import { RegBtn } from "./sub-components/btn";
+import { MainHeader } from "./sub-components/header";
 const HrSoftware = () => {
-  
   return (
     <section className={`w-11/12 mx-auto my-5 md:flex md:flex-row-reverse`}>
       <div
         className={`text-center text-[#0F2D3C]  md:w-1/2 md:text-left md:pt-5 xl:pt-10 `}
       >
-        <MainHeader text="HR Software"/>
+        <MainHeader text="HR Software" />
         <p className={`leading-8`}>
           Recruiting is energy zapping and time-consuming. From creating job
           descriptions to automating candidate screening, to even interview
@@ -16,7 +15,7 @@ const HrSoftware = () => {
           Modern International Payroll With Powerful Integrations & Unified
           Processes with EntréeLab HR
         </p>
-        <div className="lg:mt-5 hidden md:block">
+        <div className="lg:mt-5 hidden lg:block">
           <a href="#">
             <RegBtn />
           </a>

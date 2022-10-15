@@ -1,10 +1,33 @@
 import Image from "next/image";
-import logo from '../../public/landing-page/mobile-logo.svg'
-import {MdKeyboardArrowDown} from 'react-icons/md'
+import logo from "../../public/landing-page/mobile-logo.svg";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { useState } from "react";
+
+
 const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const showMenuHandler = () => {
+    setShowMenu(!showMenu);
+  };
+
+  const listItemData =[
+    {
+      text:`Login for LMS`,
+      link:`#`
+    },
+    {
+      text:`Login for Accounting Software`,
+      link:`#`
+    },
+    {
+      text:`Login for HRMS`,
+      link:`#`
+    }
+  ];
   return (
-    <nav className={`flex justify-between py-10 w-11/12 mx-auto items-center lg:mb-20`}>
-    
+    <nav
+      className={`flex justify-between py-10 w-11/12 mx-auto items-center lg:mb-20`}
+    >
       <div>
         <div className="lg:hidden">
           <a href="#">
@@ -20,24 +43,36 @@ const NavBar = () => {
         </div>
         <div className="hidden lg:block">
           <a href="#">
-            <Image src={`/landing-page/desktop-logo.svg`} width={`149.14px`} height={`31.89px`} />
+            <Image
+              src={`/landing-page/desktop-logo.svg`}
+              width={`149.14px`}
+              height={`31.89px`}
+            />
           </a>
         </div>
       </div>
       <div className="">
         <p className={`text-[#2979A0] lg:hidden`}>Login on Desktop</p>
         <div className={`hidden lg:block `}>
-          <ul>
-            <lh className="text-white">
+          <ul className="">
+            <lh className="text-white" onClick={showMenuHandler}>
               <a href={`#`} className="flex items-center">
-              Login 
-              <MdKeyboardArrowDown className="text-xl"/>
+                Login
+                <MdKeyboardArrowDown className="text-xl" />
               </a>
             </lh>
-            <div className="lg:hidden">
-              <li>login for lms</li>
-              <li>login for accounting</li>
-              <li>login for hrms</li>
+            <div
+              className="absolute z-30 bg-white w-44 h-32 right-14 pl-3 pt-3"
+              style={{ display: showMenu ? "block" : "none" }}
+            >
+              {listItemData.map((item, index) => {
+                return (
+              <li key={index} className={`pb-1`}>
+                <a href={item.link}>{item.text}</a>
+              </li>
+                )
+
+              })}
             </div>
           </ul>
         </div>

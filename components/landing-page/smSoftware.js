@@ -25,7 +25,7 @@ const SmSoftware = () => {
             </p>
           );
         })}
-        <div className="lg:mt-5 hidden md:block">
+        <div className="lg:mt-5 hidden lg:block">
         <a href="#">
           <RegBtn />
         </a>

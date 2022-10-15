@@ -2,7 +2,7 @@ import Image from "next/image";
 import {FooterHeader} from "./sub-components/header";
 import Link from "next/link";
 import findUsData from "./data/findUsData";
-import contactData from "./data/contactUs";
+import { footerContactData } from "./data/data";
 const Footer = () => {
 
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
           <FooterHeader text={`contact us`} />
           {/* contactData logic */}
           <ul>
-            {contactData.map((item, index) => {
+            {footerContactData.map((item, index) => {
               return (
                 <li
                   key={index}

@@ -3,7 +3,7 @@ import {SubmitBtn} from "./sub-components/btn";
 
 const RequestDemo = () => {
   return (
-    <section className={`bg-[#3397C8] py-16 text-["Lato"]`}>
+    <section className={`bg-[#3397C8] py-16 text-["Lato"]`} id="demo">
       <h1 className={`text-center text-[#07131A] font-bold text-xl md:text-2xl mb-5`}>
         Request a Demo
       </h1>

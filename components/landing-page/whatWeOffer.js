@@ -11,8 +11,8 @@ const WhatWeOffer = () => {
           services. You could request a demo for any of our products.
         </p>
         <div className="mt-5">
-        <a href="#">
-            <RequestDemoBtn text={`request demo`}></RequestDemoBtn>
+        <a href="#demo">
+            <RequestDemoBtn text={`request demo`}/>
         </a>
         </div>
 
