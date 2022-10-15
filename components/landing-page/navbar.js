@@ -54,11 +54,11 @@ const NavBar = () => {
       <div className="">
         <p className={`text-[#2979A0] lg:hidden`}>Login on Desktop</p>
         <div className={`hidden lg:block `}>
-          <ul className="">
+          <ul>
             <lh className="text-white" onClick={showMenuHandler}>
-              <a href={`#`} className="flex items-center">
+              <a href={`#`} className="flex items-center text-xl">
                 Login
-                <MdKeyboardArrowDown className="text-xl" />
+                <MdKeyboardArrowDown />
               </a>
             </lh>
             <div
