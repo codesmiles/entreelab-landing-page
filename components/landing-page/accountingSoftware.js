@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { RegBtn } from "./sub-components/btn";
-import { AccountingParagraphDataArr } from "./data/data";
+import { AcctParaDataArr } from "./data/data";
 const AcctSoftware = () => {
   return (
     <section className="w-11/12 mx-auto md:flex">
@@ -8,7 +8,7 @@ const AcctSoftware = () => {
         <h1 className={`capitalize font-bold mb-4 text-xl md:text-2xl`}>
           accounting software
         </h1>
-        {AccountingParagraphDataArr.map((text, index) => {
+        {AcctParaDataArr.map((text, index) => {
           return (
             <p key={index} className={`leading-[27px]`}>
               {text}

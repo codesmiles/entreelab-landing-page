@@ -1,6 +1,5 @@
 import Image from "next/image";
-import whyOurProductData from "./data/whyOurProductData";
-
+import { whyOurProductData } from "./data/data";
 const WhyOurProduct = () => {
   
   return (

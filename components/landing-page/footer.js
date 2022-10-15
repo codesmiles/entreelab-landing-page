@@ -1,8 +1,7 @@
 import Image from "next/image";
 import {FooterHeader} from "./sub-components/header";
 import Link from "next/link";
-import findUsData from "./data/findUsData";
-import { footerContactData } from "./data/data";
+import { ftContactData,ftFindUsData } from "./data/data";
 const Footer = () => {
 
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
           <FooterHeader text={`contact us`} />
           {/* contactData logic */}
           <ul>
-            {footerContactData.map((item, index) => {
+            {ftContactData.map((item, index) => {
               return (
                 <li
                   key={index}
@@ -31,7 +30,7 @@ const Footer = () => {
         <div className={`mt-10 md:mt-0`}>
           <FooterHeader text={`find us on`} />
           <ul className={`flex`}>
-            {findUsData.map((item, index) => {
+            {ftFindUsData.map((item, index) => {
               return (
                 <li key={index} className={`mr-5`}>
                   <Link href={``}>

@@ -1,4 +1,4 @@
-import data from "./data/formData";
+import { rdFormData } from "./data/data";
 import {SubmitBtn} from "./sub-components/btn";
 
 const RequestDemo = () => {
@@ -10,7 +10,7 @@ const RequestDemo = () => {
       <form action="/" method="post" className="w-4/5 mx-auto">
         <div className={`md:grid md:grid-cols-3 md:gap-x-16 md:gap-y-5`}>
 
-        {data.map((item, index) => {
+        {rdFormData.map((item, index) => {
           return (
             <div key={index} className={`mb-3`}>
               <label
