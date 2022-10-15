@@ -17,7 +17,6 @@ const AboutEntreelab = () => {
             src={`/landing-page/about-entreelab-png.png`}
             width={`574px`}
             height={`503px`}
-            
           />
         </div>
       </div>

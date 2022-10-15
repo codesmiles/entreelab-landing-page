@@ -1,12 +1,9 @@
 import Image from "next/image";
-import NavBar from "./navbar";
 import { RequestDemoBtn } from "./sub-components/btn";
 const ContactUs = () => {
   return (
-    <div className="">
-    <NavBar/>
     <section className={`md:flex relative`}>
-      <div className={`text-center py-32 px-5 md:text-left lg:px-20 md:w-1/2`}>
+      <div className={`text-center pt-16 pb-32 px-5 md:px-20 md:py-2 lg:text-left lg:w-1/2 lg:py-32`}>
         <h1 className={`font-extrabold capitalize text-2xl mb-5`}>
           solutions for every business
         </h1>
@@ -20,24 +17,34 @@ const ContactUs = () => {
           </a>
         </div>
       </div>
-      <div className="hidden md:block">
-        <div className="absolute bottom-0 right-14 z-10">
+      <div className="hidden lg:block">
+        <div className="absolute bottom-0 right-14 z-20">
           <Image
             src={`/landing-page/design1-2-jpg.jpg`}
             width={`508px`}
             height={`576px`}
+            onContextMenu={(e)=>{e.preventDefault()}} 
           />
         </div>
-        <div className="absolute bottom-0 right-0">
+        <div className="absolute bottom-0 right-0 z-10">
           <Image
             src={`/landing-page/design2-2.jpg`}
             width={`251.32px`}
             height={`423.94px`}
+            onContextMenu={(e)=>{e.preventDefault()}} 
+          />
+        </div>
+        <div className="absolute bottom-0 right-0 -z-10">
+          <Image
+            src={`/landing-page/Rectangle-1.png`}
+            width={`419px`}
+            height={`720px`}
+            onContextMenu={(e)=>{e.preventDefault()}}
           />
         </div>
       </div>
     </section>
-    </div>
+
   );
 };
 
