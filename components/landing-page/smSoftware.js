@@ -1,18 +1,10 @@
 import Image from "next/image";
-import {RegBtn} from "./sub-components/btn";
+import { RegBtn } from "./sub-components/btn";
 import { MainHeader } from "./sub-components/header";
+import { txtArr } from "./data/data";
+
+
 const SmSoftware = () => {
-  const txtArr = [
-    `The EntréeLab School Management Software is an e-learning application
-    built as a central learning hub where multiple users have access to
-    training and evaluation tools needed in one place. It is an effective
-    LMS application developed with special consideration for the Nigerian
-    market.`,
-    `The software is designed to help educators/schools, parents and most
-    especially student monitor and evaluate development and performance in
-    their activities by providing periodic digital charts in designated
-    accounts.`,
-  ];
   return (
     <section className={`w-11/12 mx-auto md:flex `}>
       <div className={`text-center md:text-left md:w-1/2 text-[#0F2D3C] `}>
@@ -26,9 +18,9 @@ const SmSoftware = () => {
           );
         })}
         <div className="lg:mt-5 hidden lg:block">
-        <a href="#">
-          <RegBtn />
-        </a>
+          <a href="#">
+            <RegBtn />
+          </a>
         </div>
       </div>
       <div className="md:w-1/2 flex justify-center md:justify-end">

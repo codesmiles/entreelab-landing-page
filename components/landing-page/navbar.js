@@ -1,6 +1,7 @@
 import Image from "next/image";
-import logo from "../../public/landing-page/mobile-logo.svg";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import logo from "../../public/landing-page/mobile-logo.png";
+import logo1 from "../../public/landing-page/desktop-logo.png"
 import { useState } from "react";
 
 
@@ -44,7 +45,8 @@ const NavBar = () => {
         <div className="hidden lg:block">
           <a href="#">
             <Image
-              src={`/landing-page/desktop-logo.svg`}
+              src={logo1}
+              placeholder="blur"
               width={`149.14px`}
               height={`31.89px`}
             />

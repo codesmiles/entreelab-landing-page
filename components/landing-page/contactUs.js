@@ -1,5 +1,9 @@
 import Image from "next/image";
 import { RequestDemoBtn } from "./sub-components/btn";
+import pattern from "../../public/landing-page/design1-2-jpg.jpg";
+import pattern2 from "../../public/landing-page/design2-2.jpg";
+import pattern3 from "../../public/landing-page/Rectangle-1.png"
+
 const ContactUs = () => {
   return (
     <section className={`md:flex relative`}>
@@ -20,7 +24,8 @@ const ContactUs = () => {
       <div className="hidden lg:block">
         <div className="absolute bottom-0 right-14 z-20">
           <Image
-            src={`/landing-page/design1-2-jpg.jpg`}
+            src={pattern}
+            placeholder="blur"
             width={`508px`}
             height={`576px`}
             onContextMenu={(e)=>{e.preventDefault()}} 
@@ -28,7 +33,8 @@ const ContactUs = () => {
         </div>
         <div className="absolute bottom-0 right-0 z-10">
           <Image
-            src={`/landing-page/design2-2.jpg`}
+            src={pattern2}
+            placeholder="blur"
             width={`251.32px`}
             height={`423.94px`}
             onContextMenu={(e)=>{e.preventDefault()}} 
@@ -36,7 +42,8 @@ const ContactUs = () => {
         </div>
         <div className="absolute bottom-0 right-0 -z-10">
           <Image
-            src={`/landing-page/Rectangle-1.png`}
+            src={pattern3}
+            // placeholder="blur"
             width={`419px`}
             height={`720px`}
             onContextMenu={(e)=>{e.preventDefault()}}

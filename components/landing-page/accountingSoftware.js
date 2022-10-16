@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { RegBtn } from "./sub-components/btn";
 import { AcctParaDataArr } from "./data/data";
+import img from "../../public/landing-page/mobile-accounting-software.png";
+import img2 from "../../public/landing-page/desktop-accounting-software.png";
+
 const AcctSoftware = () => {
   return (
     <section className="w-11/12 mx-auto md:flex">
@@ -24,14 +27,16 @@ const AcctSoftware = () => {
       <div className="flex justify-center md:justify-end md:w-1/2">
         <div className={`md:hidden`}>
           <Image
-            src={`/landing-page/mobile-accounting-software.svg`}
+            src={img}
+            placeholder="blur"
             width={`330px`}
             height={`234.8px`}
           />
         </div>
         <div className="hidden md:block">
           <Image
-            src={`/landing-page/desktop-accounting-software.svg`}
+            src={img2}
+            placeholder="blur"
             width={`513px`}
             height={`365px`}
           />
