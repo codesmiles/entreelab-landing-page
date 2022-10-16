@@ -1,6 +1,10 @@
 import Image from "next/image";
 import { RegBtn } from "./sub-components/btn";
 import { MainHeader } from "./sub-components/header";
+import img1 from "../../public/landing-page/mobile-HRscreen2-1.png";
+import img2 from "../../public/landing-page/desktop-HRscreen2-1.png";
+
+
 const HrSoftware = () => {
   return (
     <section className={`w-11/12 mx-auto my-5 md:flex md:flex-row-reverse`}>
@@ -24,16 +28,18 @@ const HrSoftware = () => {
       <div className={`flex justify-center md:justify-start md:w-1/2`}>
         <div className={`md:hidden`}>
           <Image
-            src={`/landing-page/mobile-HRscreen2-1.svg`}
+            src={img1}
             width={`330px`}
             height={`236.27px`}
+            placeholder="blur"
           />
         </div>
         <div className={`hidden md:block`}>
           <Image
-            src={`/landing-page/desktop-HRscreen2-1.svg`}
+            src={img2}
             width={`516.78px`}
             height={`370px`}
+            placeholder={"blur"}
           />
         </div>
       </div>

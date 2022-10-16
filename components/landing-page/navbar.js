@@ -69,7 +69,7 @@ const NavBar = () => {
             >
               {listItemData.map((item, index) => {
                 return (
-              <li key={index} className={`pb-1`}>
+              <li key={index} className={`pb-1 hover:text-blue-500`}>
                 <a href={item.link}>{item.text}</a>
               </li>
                 )

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { RegBtn } from "./sub-components/btn";
 import { MainHeader } from "./sub-components/header";
 import { txtArr } from "./data/data";
-
+import img from "../../public/landing-page/Group 46.png";
 
 const SmSoftware = () => {
   return (
@@ -26,16 +26,18 @@ const SmSoftware = () => {
       <div className="md:w-1/2 flex justify-center md:justify-end">
         <div className="md:hidden">
           <Image
-            src={`/landing-page/group46.svg`}
+            src={img}
             width={`330`}
             height={`239.5`}
+            placeholder="blur"
           />
         </div>
         <div className="hidden md:block">
           <Image
-            src={`/landing-page/group46.svg`}
+            src={img}
             width={`516.78px`}
             height={`370px`}
+            placeholder="blur"
           />
         </div>
       </div>
