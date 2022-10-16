@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <footer
       className={`bg-[#0F2D3C]`}
+      id="footer"
     >
       <section className={` text-white pl-2 py-10 font-["Lato"] md:grid md:grid-cols-2 w-11/12 mx-auto`}>
         <div>

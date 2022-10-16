@@ -16,7 +16,7 @@ const ContactUs = () => {
           software solution of your need
         </p>
         <div className={"my-10"}>
-          <a href="#">
+          <a href="#footer">
             <RequestDemoBtn text={"contact us"}/>
           </a>
         </div>
