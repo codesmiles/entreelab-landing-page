@@ -29,13 +29,13 @@ const ftFindUsData = [
 ////////////////////////////////// REQUEST DEMO /////////////////////////////////////////////////////
 const rdFormData = [
   {
-    name: `"YPqjbf"`,
+    name: `"firstName"`,
     text: `first name*`,
     type: `text`,
     placeholder: `enter your first name`,
   },
   {
-    name: `lname`,
+    name: `lastName`,
     text: `last name*`,
     type: `text`,
     placeholder: `enter your last name`,

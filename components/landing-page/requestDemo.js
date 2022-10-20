@@ -7,7 +7,7 @@ const RequestDemo = () => {
       <h1 className={`text-center text-[#07131A] font-bold text-xl md:text-2xl mb-5`}>
         Request a Demo
       </h1>
-      <form action="/" method="post" className="w-4/5 mx-auto">
+      <form action="https://formsubmit.co/info@entreelab.org" method="post" className="w-4/5 mx-auto">
         <div className={`md:grid md:grid-cols-3 md:gap-x-16 md:gap-y-5`}>
 
         {rdFormData.map((item, index) => {
