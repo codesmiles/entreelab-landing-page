@@ -30,6 +30,7 @@ const SmSoftware = () => {
             width={`330`}
             height={`239.5`}
             placeholder="blur"
+            alt={`School Management Software`}
           />
         </div>
         <div className="hidden md:block">
@@ -38,6 +39,7 @@ const SmSoftware = () => {
             width={`516.78px`}
             height={`370px`}
             placeholder="blur"
+            alt="School Management Software"
           />
         </div>
       </div>
