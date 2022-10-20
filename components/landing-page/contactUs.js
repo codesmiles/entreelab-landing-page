@@ -28,6 +28,7 @@ const ContactUs = () => {
             placeholder="blur"
             width={`508px`}
             height={`576px`}
+            alt={``}
             onContextMenu={(e)=>{e.preventDefault()}} 
           />
         </div>
@@ -37,16 +38,17 @@ const ContactUs = () => {
             placeholder="blur"
             width={`251.32px`}
             height={`423.94px`}
+            alt={``}
             onContextMenu={(e)=>{e.preventDefault()}} 
           />
         </div>
         <div className="absolute bottom-0 right-0 -z-10">
           <Image
             src={pattern3}
-            // placeholder="blur"
             width={`419px`}
             height={`720px`}
             onContextMenu={(e)=>{e.preventDefault()}}
+            alt={``}
           />
         </div>
       </div>

@@ -39,6 +39,7 @@ const NavBar = () => {
               height={`48.62px`}
               blurDataURL={logo}
               placeholder="blur"
+              
             />
           </a>
         </div>
@@ -49,6 +50,7 @@ const NavBar = () => {
               placeholder="blur"
               width={`149.14px`}
               height={`31.89px`}
+              alt={`entreelab logo`}
             />
           </a>
         </div>

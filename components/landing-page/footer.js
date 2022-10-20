@@ -20,7 +20,7 @@ const Footer = () => {
                   key={index}
                   className={`flex justify-start my-5 text-[15px]`}
                 >
-                  <Image src={item.img} width={20} height={20} />
+                  <Image src={item.img} width={20} height={20} alt={``}/>
                   <p className={`ml-3 `}>{item.text}</p>
                 </li>
               );
@@ -36,7 +36,7 @@ const Footer = () => {
                 <li key={index} className={`mr-5`}>
                   <Link href={``}>
                     <a>
-                      <Image src={item} width={40} height={40} />
+                      <Image src={item} width={40} height={40} alt={``}/>
                     </a>
                   </Link>
                   <p>{item.text}</p>

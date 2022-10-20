@@ -32,6 +32,7 @@ const HrSoftware = () => {
             width={`330px`}
             height={`236.27px`}
             placeholder="blur"
+            alt={`HR software`}
           />
         </div>
         <div className={`hidden md:block`}>
@@ -40,6 +41,7 @@ const HrSoftware = () => {
             width={`516.78px`}
             height={`370px`}
             placeholder={"blur"}
+            alt={`HR software`}
           />
         </div>
       </div>

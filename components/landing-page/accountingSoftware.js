@@ -31,6 +31,7 @@ const AcctSoftware = () => {
             placeholder="blur"
             width={`330px`}
             height={`234.8px`}
+            alt={`Accounting software image`}
           />
         </div>
         <div className="hidden md:block">
@@ -39,6 +40,7 @@ const AcctSoftware = () => {
             placeholder="blur"
             width={`513px`}
             height={`365px`}
+            alt={`Accounting software Image`}
           />
         </div>
       </div>

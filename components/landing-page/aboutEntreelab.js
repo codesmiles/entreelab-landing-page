@@ -14,6 +14,7 @@ const AboutEntreelab = () => {
             width={`335px`}
             height={`220px`}
             className="h-full"
+            alt={`About Entreelab image`}
           />
         </div>
         <div className={`hidden md:block bg-[url("/landing-page/about-entreelab-jpg.jpg")] bg-cover bg-no-repeat`}>
@@ -22,6 +23,7 @@ const AboutEntreelab = () => {
             placeholder="blur"
             width={`574px`}
             height={`503px`}
+            alt={`About Entreelab image`}
           />
         </div>
       </div>

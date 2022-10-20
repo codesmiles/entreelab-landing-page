@@ -17,6 +17,7 @@ const WhyOurProduct = () => {
                 width={`70`}
                 height={`70`}
                 className={`md:w-[100px] md:h-[100px]`}
+                alt={``}
               />
               <h2 className="font-semibold text-[16px] text-[#0F2D3C] py-2 capitalize">
                 {item.headText}
