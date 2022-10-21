@@ -1,8 +1,8 @@
-name: 🚀 Build and Deploy to CPanel
+name: 🚀 Build and Export to CPanel
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
   web-deploy:
     name: 🎉 Deploy to server
