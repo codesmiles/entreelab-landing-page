@@ -12,18 +12,14 @@ const AcctParaDataArr = [
 
 ///////////////////////////////   FOOTER   ////////////////////////////////////////////////////////////////
 const ftContactData = [
-  { img: `/landing-page/phone.svg`, text: `01-454 5353, 07031081191` },
-  {
-    img: `/landing-page/location.svg`,
-    text: `101 Randle Avenue,	Surulere Lagos`,
-  },
+  { img: `/landing-page/phone.svg`, text: `+44785654370, +23414545353`},
   { img: `/landing-page/mail.svg`, text: `info@entreelab.org` },
 ];
 
 const ftFindUsData = [
-  `/landing-page/instagram.svg`,
-  `/landing-page/twitter.svg`,
-  `/landing-page/facebook.svg`,
+  {dir:`/landing-page/instagram.svg`,url:""},
+  {dir:`/landing-page/facebook.svg`,url:`www.facebook.com/Entreelab`},
+  {dir:``,url:``}
 ];
 
 ////////////////////////////////// REQUEST DEMO /////////////////////////////////////////////////////

@@ -6,28 +6,25 @@ import aboutEntreelabMobile from "../../public/landing-page/about-entreelab-mobi
 const AboutEntreelab = () => {
   return (
     <section className="relative md:flex">
-      <div>
+      <div className="relative md:w-2/5">
         <div className="md:hidden absolute -top-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5">
           <Image
             src={aboutEntreelabMobile}
             placeholder="blur"
-            width={`335px`}
-            height={`220px`}
             className="h-full"
             alt={`About Entreelab image`}
           />
         </div>
-        <div className={`hidden md:block bg-[url("/landing-page/about-entreelab-jpg.jpg")] bg-cover bg-no-repeat`}>
+        <div className={`hidden md:block bg-cover bg-no-repeat`}>
           <Image
             src={aboutEntreelabDesktop}
+            layout="fill"
             placeholder="blur"
-            width={`574px`}
-            height={`503px`}
             alt={`About Entreelab image`}
           />
         </div>
       </div>
-      <div className={`text-center bg-[#0F2D3C] text-white pt-20 px-4 pb-16 md:w-2/3 md:py-0 md:text-left lg:py-10 lg:px-24 xl:py-28 xl:px-32`}>
+      <div className={`text-center bg-[#0F2D3C] text-white pt-20 px-4 pb-16 md:w-3/5 md:py-0 md:text-left lg:py-10 lg:px-24 xl:py-28 xl:px-32`}>
         <div className=" mb-5">
           <MainHeader text="About EntréeLab"/>
         </div>

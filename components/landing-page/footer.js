@@ -33,13 +33,10 @@ const Footer = () => {
           <ul className={`flex`}>
             {ftFindUsData.map((item, index) => {
               return (
-                <li key={index} className={`mr-5`}>
-                  <Link href={``}>
-                    <a>
-                      <Image src={item} width={40} height={40} alt={``}/>
+                <li key={index} className={`mr-5`}> 
+                    <a href={item.url}>
+                      <Image src={item.dir} width={40} height={40} alt={``}/>
                     </a>
-                  </Link>
-                  <p>{item.text}</p>
                 </li>
               );
             })}
