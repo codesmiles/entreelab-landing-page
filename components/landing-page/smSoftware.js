@@ -27,8 +27,6 @@ const SmSoftware = () => {
         <div className="md:hidden">
           <Image
             src={img}
-            width={`330`}
-            height={`239.5`}
             placeholder="blur"
             alt={`School Management Software`}
           />
