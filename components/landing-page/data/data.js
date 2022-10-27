@@ -19,7 +19,7 @@ const ftContactData = [
 const ftFindUsData = [
   {dir:`/landing-page/instagram.svg`,url:""},
   {dir:`/landing-page/facebook.svg`,url:`www.facebook.com/Entreelab`},
-  {dir:``,url:``}
+  {dir:`/landing-page/linkedin-logo-svgrepo-com.svg`,url:`https://www.linkedin.com/company/entreelab/`}
 ];
 
 ////////////////////////////////// REQUEST DEMO /////////////////////////////////////////////////////
